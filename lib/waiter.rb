@@ -22,8 +22,8 @@ class Waiter
   def best_tipper 
     array_of_tips = []
     
-    self.customers.each{|el| array_of_tips << el.tip}
-    self.customers.find{|el|  el if el.tip == array_of_tips.max}
+    # self.customers.each{|el| array_of_tips << el.tip}
+    # self.customers.find{|el|  el if el.tip == array_of_tips.max}
    
   end
 end
