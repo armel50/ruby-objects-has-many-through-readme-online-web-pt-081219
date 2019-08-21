@@ -24,6 +24,7 @@ class Waiter
     
     # self.customers.each{|el| array_of_tips << el.tip}
     # self.customers.find{|el|  el if el.tip == array_of_tips.max}
-   
+   self.meals.each{|el| array_of_tips << el.tip}
+   p array_of_tips
   end
 end
